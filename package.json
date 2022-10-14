@@ -1,6 +1,6 @@
 {
   "name": "react-native-ex2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -94,14 +94,12 @@
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
     },
-    "npm":
-      {
-        "publish": true
-      },
-    
+    "npm": {
+      "publish": true
+    },
     "github": {
       "release": true
-    } 
+    }
   },
   "eslintConfig": {
     "root": true,
